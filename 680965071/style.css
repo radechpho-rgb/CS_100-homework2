@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    color: #a06d4e;
+}
+.cherrycake{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    padding: 1rem;
+    background-color: #a06d4e;
+}
+.nav-cherrycake{
+    display: flex;
+    justify-content: space-between;
+}
+.bakery a{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+.menu {
+   display: flex;
+   list-style: none;
+   align-items: center;
+}
+.menu li{
+   margin: 0 1rem;
+}
+.menu li a{
+  color: #fff;
+}
+.dryingfish{
+    background-color: rgb(230, 210, 192);
+}
+.dryingfish-cherrycake{
+    display: flex;
+}
+.dryingfish-info{
+    width: 100%;
+    padding: 2rem;
+}
+.dryingfish-info h3{
+    font-size: 2rem;
+}
+.dryingfish-info p{
+    margin: 1rem 0;
+}
+.dryingfish-info .dryingfish-btn{
+    background-color: rgb(233, 192, 87);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.dryingfish-img{
+    width: 100%;
+    padding: 2rem;
+}
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.content-title{
+    margin:2rem 0;
+}
+.content-item img{
+    width: 100%;
+}
+.content-item h4{
+    margin-top: 1rem;
+}
+.content-item p{
+    margin: 1rem 0;
+}
+.content-item a{
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(233, 192, 87);
+}
+.footer-top{
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: rgb(230, 210, 192);
+    color: #a06d4e;
+}
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+    
+}
+.footer-top-item-con .date{
+    background-color: #fff;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+    margin-bottom: 1rem;
+}
